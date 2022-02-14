@@ -46,6 +46,12 @@ print("{0:0.4f".format(y))
 print("{0:10.4f}".format(y))
 # 자릿수를 10으로 맞출 수도 있다.
 
+# 소수점 표현하기 추가 자료
+# https://code-code.tistory.com/10
+aa = 1.2
+print(format(aa, ".2f")) # 1.20
+f = format(aa, '.2f') # 1.20 >> float 형태에서 string 타입으로 변경됩니다.
+
 # { 또는 } 문자 표현하기
 print("{{ and }}.".format())
 # 중괄호 문자를 포매팅 문자가 아닌 문자 그대로 사용하고 싶다면
