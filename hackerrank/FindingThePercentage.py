@@ -15,4 +15,4 @@ if __name__ == '__main__':
     print(format(temp/3, ".2f"))
 
 # https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true
-# main 으로 변경 후 전송
+# main 으로 변경 후 전송 2번째
