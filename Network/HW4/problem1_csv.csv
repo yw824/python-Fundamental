@@ -1,0 +1,26 @@
+Host,"  The HTTP host header is a request header that specifies the domain to which a client wants to connect. This header is required because it is fairly common for servers to host websites and applications at the same IP address. They don't always know where to send the request though."
+HTTP, The Hypertext Transfer Protocol (HTTP) is a stateless application-level protocol for distributed, collaborative, hypertext information systems
+Port, the logical address of each application or process that uses a network or the Internet to communicate
+header, the portion of an IP (Internet protocol) packet that precedes its body and contains addressing and other data that is required for it to reach its intended destination
+Encryption, The reversible transformation of data from the original (plaintext) to a difficult-to-interpret format (ciphertext) as a mechanism for protecting its confidentiality integrity and sometimes its authenticity
+Framing, A frame works to help identify data packets used in networking and telecommunications structures
+GET common method, GET is used to request data from a specified resource
+POST common method, POST is used to send data to a server to create/update a resource
+URL, a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it
+Status Code, a message a website’s server sends to the browser to indicate whether or not that request can be fulfilled
+Caching, is a data storing technique that provides the ability to access data or files at a higher speed
+Content type, a reusable collection of metadata for a category of content with its corresponding taxonomies that allows you to manage information in a centralized reusable way
+Content-Encoding, Content-Encoding HTTP Header specifies which encoding was used to encode the representation and in what order
+HTTP Authentication, a simple challenge and response mechanism with which a server can request authentication information (a user ID and password) from a client
+Cookies, Cookies are text files with small pieces of data — like a username and password — that are used to identify your computer as you use a computer network
+Session, the term used to refer to a visitor's time browsing a web site
+WSGI, a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python programming language
+HTTP proxy, routes HTTP Client requests from a Web browser to the Internet while supporting the caching of Internet data
+Gunicorn, Gunicorn is a WSGI server that is reacting to lots of web requests at once and distributing the load
+Apache, free and open-source web server that delivers web content through the internet
+Nginx, open source Web server software that also performs reverse proxy + load balancing + email proxy and HTTP cache services
+REST, architectural style for an application program interface (API) that uses HTTP requests to access and use data
+HTML,  a standardized system for tagging text files to achieve font + color + graphic, + hyperlink effects on World Wide Web pages
+JSON, a lightweight format for storing and transporting data
+XML, a metalanguage which allows users to define their own customized markup languages especially in order to display documents on the internet
+"WWW ", combination of all resources and users on the Internet that are using the Hypertext Transfer Protocol (HTTP)
