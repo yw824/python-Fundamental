@@ -6,7 +6,6 @@ students = {"A" : 90,
             "D" : 60}
 for i in range(4):
     # 여기를 채우세요!
-    print(key)
     if students[i] >= 90:
         print("A")
     elif students[i] >= 80:
