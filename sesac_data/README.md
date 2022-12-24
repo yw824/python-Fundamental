@@ -1,4 +1,5 @@
 ## SESAC - 2022 서울시 공공데이터를 활용한 데이터 분석
+- data 용량이 너무 많아 데이터는 gitignore에 설정되어 있음 - 따로 구글 드라이브에서 내려받을 것
 
 01. pandas_fundamental.ipynb : 파이썬 - 데이터 분석을 위한 판다스 시작하기
 02. pandas_series.ipynb : 파이썬 - series 다루기
