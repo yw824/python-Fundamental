@@ -1,5 +1,4 @@
 #Skeleton Code
-# 피로그래밍 17기 지원 코딩테스트
 
 import string
 import random
@@ -19,20 +18,20 @@ class Game:
         self.user_character = ""  # 사용자가 선택한 캐릭터
         self.remain_alp = list(string.ascii_uppercase)  # 남은 알파벳
         self.cur_string = ["_"] * 10  # 현재까지의 글자상태를 저장
-        self.answer_string = ""  # 랜덤 10글자 단어
+        self.answer_str = ""  # 랜덤 10글자 단어
 
     def start_game(self):
         """
         - [ 게임 시작 전 ] 부분을 담당하는 함수 입니다.
         - 캐릭터들을 초기화 하고, 사용자가 플레이할 캐릭터를 선택합니다.
-        - 랜덤 알파벳 10글자로 이루어진 answer_string 을 생성합니다.
+        - 랜덤 알파벳 10글자로 이루어진 answer_str 을 생성합니다.
         - 동일 클래스의 game()에서 호출됩니다.
         """
 
-        self.player.append(Player("김용빈", 50, 20, 0))
-        self.player.append(Player("김규리", 70, 25, 0))
-        self.player.append(Player("이승아", 80, 30, 0))
-        self.player.append(Player("윤석현", 90, 35, 0))
+        self.player.append(Player("이동헌", 50, 20, 0))
+        self.player.append(Player("심은서", 70, 25, 0))
+        self.player.append(Player("임채은", 80, 30, 0))
+        self.player.append(Player("신승현", 90, 35, 0))
 
         # TODO 1-(1): 사용자로부터 캐릭터를 입력받아 user_character에 저장해주세요.
         # Write code here..
@@ -42,12 +41,12 @@ class Game:
 
         ##### END OF TODO 1-(1)(문제와 본 라인 사이에 코드를 작성하세요.) #####
 
-        # TODO 1-(2) : 랜덤 알파벳 10글자로 이루어진 단어를 만들어 answer_string에 저장해주세요.
+        # TODO 1-(2) : 랜덤 알파벳 10글자로 이루어진 단어를 만들어 answer_str에 저장해주세요.
         # Write code here..
         # str = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
         for i in range(10):
-            self.answer_string += random.choice(string.ascii_uppercase)
-        print(self.answer_string)
+            self.answer_str += random.choice(string.ascii_uppercase)
+        print(self.answer_str)
         print("랜덤으로 생성된 답입니다. 플레이어는 알 수 없습니다.")
         ##### END OF TODO 1-(2)(문제와 본 라인 사이에 코드를 작성하세요.) #####
 
@@ -105,7 +104,7 @@ class Game:
                     # Write code here..
             status = 0
             for j in range(10):
-                if comp == self.answer_string[j]:
+                if comp == self.answer_str[j]:
                     self.cur_string[j] = comp
                     print("***** 맞았습니다 ᵔεᵔ  *****")
                     str = ''
