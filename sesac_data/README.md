@@ -7,3 +7,9 @@
 04. pandas_data_byColumnAndIndex.ipynb : 파이썬 - 인덱스, 컬럼명으로 데이터 추출하기
 05. pandas_data_byRowAndCol.ipynb : 파이썬 - 행번호, 열번호로 데이터 추출하기
 06. matplotlib_basic_graph.ipynb : 파이썬 - 기본 그래프 그리기
+07. modifyColumn.ipynb : 파이썬 - 데이터 가공하기 - 열 변경하기
+08. modifyRow.ipynb : 파이썬 - 데이터 가공하기 - 행 변경하기
+09. data_with_function.ipynb : 파이썬 - 데이터에 함수 적용하기
+10. processNaN.ipynb : 파이썬 - 데이터 가공하기 - 결측치 처리하기
+11. type_conversion.ipynb : 파이썬 - 판다스 자료형 다루기 - 자료형 반환하기
+12. type_categories.ipynb : 파이썬 - 판다스 자료형 다루기 - 카테고리형 자료 다루기
