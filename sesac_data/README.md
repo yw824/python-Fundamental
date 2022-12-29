@@ -13,3 +13,10 @@
 10. processNaN.ipynb : 파이썬 - 데이터 가공하기 - 결측치 처리하기
 11. type_conversion.ipynb : 파이썬 - 판다스 자료형 다루기 - 자료형 반환하기
 12. type_categories.ipynb : 파이썬 - 판다스 자료형 다루기 - 카테고리형 자료 다루기
+13. type_timeSeries.ipynb : 파이썬 - 판다스 자료형 다루기 - 시계열형 자료 다루기
+14. dataframe_grouping_reconstruct.ipynb : 데이터프레임 그룹핑과 재구조화 - 데이터프레임 연결하기
+    - 그림 있으니 붙여넣을 것 
+15. change_row_col_melt_pivot.ipynb : 데이터프레임 그룹핑과 재구조화 - 행과 열의 형태 변경하기
+    - 그림 있으니 붙여넣을 것 
+16. pivot_table.ipynb : 데이터프레임 그룹핑과 재구조화 - 피봇 테이블로 데이터 집계하기( pivot_table )
+    - 그림 있으니 붙여넣을 것 
